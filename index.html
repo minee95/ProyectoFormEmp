@@ -79,10 +79,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="#" class="nav-item nav-link active">Inicio</a>
-                <a href="#Nosotros" class="nav-item nav-link">Nosotros</a>
-                <a href="#servicio" class="nav-item nav-link">Servicios</a>
-                <a href="product.html" class="nav-item nav-link">Productos</a>
+                <a href="#inicio" class="nav-item nav-link active">Inicio</a>
+                <a href="#nosotros" class="nav-item nav-link">Nosotros</a>
+                <a href="#servicios" class="nav-item nav-link">Servicios</a>
+                <a href="#productos" class="nav-item nav-link">Productos</a>
 
                 
                 <!--<div class="nav-item dropdown">
@@ -90,12 +90,12 @@
                     <div class="dropdown-menu m-0">
                         <a href="price.html" class="dropdown-item">Pricing Plan</a>
                         <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="adopta.html" class="dropdown-item">Testimonial</a>
                         <a href="blog.html" class="dropdown-item">Blog Grid</a>
                         <a href="detail.html" class="dropdown-item">Blog Detail</a>
                     </div>
                 </div>-->
-                <a href="testimonial.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">ADOPCIÓN <i class="bi bi-arrow-right"></i></a>
+                <a href="adopta.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">ADOPCIÓN <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </nav>
@@ -103,7 +103,7 @@
 
 
     <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+    <div id="inicio" class="container-fluid bg-primary py-5 mb-5 hero-header">
         <div class="container py-5">
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
@@ -111,12 +111,12 @@
                     <h1 class="text-uppercase text-white mb-lg-4">Donde los sueños de tu mascota se hacen realidad</h1>
                     <p class="fs-4 text-white mb-lg-4">Tenemos como objetivo principal el cuidado responsable de las mascotas. Nos enorgullece ofrecer una amplia gama de servicios y productos exclusivos que garantizan el bienestar y la felicidad de los animales, al mismo tiempo que brindamos un excelente apoyo a sus dueños. </p>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Más información</a>
+                        <a href="#nosotros" class="btn btn-outline-light border-2 py-md-3 px-md-5 me-5">Más información</a>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                        <h5 class="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">play</h5>
+                        <h5 class="font-weight-normal text-white m-0 ms-4 d-none d-sm-block">Video</h5>
                     </div>
                 </div>
             </div>
@@ -147,6 +147,7 @@
 
 
     <!-- About Start -->
+    <div id="nosotros" style="scroll-padding-top: 5rem; padding-top: 5rem;"></div>
     <div class="container-fluid py-5">
         <div class="container">
             <div class="row gx-5">
@@ -157,7 +158,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <a href="#Nosotros" class="nav-item nav-link"></a>
+                        <a href="#" class="nav-item nav-link"></a>
                         <h6 class="text-primary text-uppercase">Sobre Nosotros</h6>
                         <h1 class="display-5 text-uppercase mb-0">Manten tu mascota feliz siempre</h1>
                     </div>
@@ -192,7 +193,8 @@
     
 
     <!-- Services Start -->
-    <section id="#servicio" class="two">
+    <div id="servicios" style="padding-top: 5rem;"></div>
+    <section class="two">
         <div class="container-fluid py-5">
             <div class="container">
                 <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
@@ -269,12 +271,14 @@
 
 
     <!-- LA MEJOR CALIDAD PARA TU MEJOR AMIGO -->
+    <div id="productos" style="padding-top: 5rem;"></div>
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+            <div class="border-start border-5 border-primary ps-5 mb-2" style="max-width: 600px;">
                 <h6 class="text-primary text-uppercase">Productos</h6>
                 <h1 class="display-5 text-uppercase mb-0">PARA TODA MASCOTA</h1>
             </div>
+            <p class="ps-5 mb-5">Contáctanos y te enviamos nuestro catálogo</p>
             <div class="owl-carousel product-carousel">
                 <div class="pb-5">
                     <div class="product-item position-relative bg-light d-flex flex-column text-center">
@@ -283,7 +287,7 @@
                         <h5 class="text-primary mb-0"></h5>
                         <div class="btn-action d-flex justify-content-center">
                            
-                            <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a>
+                            <!-- <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -294,7 +298,7 @@
                         <h5 class="text-primary mb-0"></h5>
                         <div class="btn-action d-flex justify-content-center">
                              <!--<a class="btn btn-primary py-2 px-3" href="prod.html"><i class="bi bi-cart"></i></a>-->
-                            <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a>
+                            <!-- <a class="btn btn-primary py-2 px-3" href=""><i class="bi bi-eye"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -305,7 +309,7 @@
                         <h5 class="text-primary mb-0"></h5>
                         <div class="btn-action d-flex justify-content-center">
                              <!--<a class="btn btn-primary py-2 px-3" href="prod.html"><i class="bi bi-cart"></i></a>-->
-                            <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a>
+                            <!-- <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -316,7 +320,7 @@
                         <h5 class="text-primary mb-0"></h5>
                         <div class="btn-action d-flex justify-content-center">
                            <!--<a class="btn btn-primary py-2 px-3" href="prod.html"><i class="bi bi-cart"></i></a>-->
-                            <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a>
+                            <!-- <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -327,7 +331,7 @@
                         <h5 class="text-primary mb-0"></h5>
                         <div class="btn-action d-flex justify-content-center">
                              <!--<a class="btn btn-primary py-2 px-3" href="prod.html"><i class="bi bi-cart"></i></a>-->
-                            <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a>
+                            <!-- <a class="btn btn-primary py-2 px-3" href="#"><i class="bi bi-eye"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -563,83 +567,38 @@
     <!-- Team End -->
 
 
-
-
-    <!-- Blog Start -->
+    
+    
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Latest Blog</h6>
-                <h1 class="display-5 text-uppercase mb-0">Latest Articles From Our Blog Post</h1>
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="blog-item">
-                        <div class="row g-0 bg-light overflow-hidden">
-                            <div class="col-12 col-sm-5 h-100">
-                                <img class="img-fluid h-100" src="img/blog-1.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
-                                        <small><i class="bi bi-calendar-date me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h5 class="text-uppercase mb-3">Dolor sit magna rebum clita rebum dolor</h5>
-                                    <p>Ipsum sed lorem amet dolor amet duo ipsum amet et dolore est stet tempor eos dolor</p>
-                                    <a class="text-primary text-uppercase" href="">Más Información<i class="bi bi-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row">
+                
+                <div class="col">
+                    <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
+                        <h6 class="text-primary text-uppercase">Nuestra Ubicación</h6>
+                        
+                    </div>
+                    <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                        var setting = {"query":"Vía Italia, Panamá","width":650,"height":600,"satellite":false,"zoom":7,"placeId":"EhxWw61hIEl0YWxpYSwgUGFuYW3DoSwgUGFuYW1hIi4qLAoUChIJ8T300eGorI8R72a1p67pnIoSFAoSCWMD6NvxqKyPEQ7BQvDxXaKr","cid":"0x8a9ce9aea7b566ef","coords":[8.9766406,-79.5152076],"lang":"es","queryString":"Vía Italia, Panamá","centerCoord":[8.9766406,-79.5152076],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"958313"};
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=958313';
+                        s.async = true;
+                        s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                    })();</script><a href="https://1map.com/es/map-embed">1 Map</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="blog-item">
-                        <div class="row g-0 bg-light overflow-hidden">
-                            <div class="col-12 col-sm-5 h-100">
-                                <img class="img-fluid h-100" src="img/blog-2.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="col-12 col-sm-7 h-100 d-flex flex-column justify-content-center">
-                                <div class="p-4">
-                                    <div class="d-flex mb-3">
-                                        <small class="me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
-                                        <small><i class="bi bi-calendar-date me-2"></i>01 Jan, 2045</small>
-                                    </div>
-                                    <h5 class="text-uppercase mb-3">Dolor sit magna rebum clita rebum dolor</h5>
-                                    <p>Ipsum sed lorem amet dolor amet duo ipsum amet et dolore est stet tempor eos dolor</p>
-                                    <a class="text-primary text-uppercase" href="">Más Información<i class="bi bi-chevron-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col align-self-center">
+                    <center><img src="./img/logo.png" class="img-fluid" "logo"></center>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Blog End -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Nuestra Ubicación</h6>
-               
-            </div>
-    <center>
-        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-            var setting = {"query":"Vía Italia, Panamá","width":800,"height":600,"satellite":false,"zoom":7,"placeId":"EhxWw61hIEl0YWxpYSwgUGFuYW3DoSwgUGFuYW1hIi4qLAoUChIJ8T300eGorI8R72a1p67pnIoSFAoSCWMD6NvxqKyPEQ7BQvDxXaKr","cid":"0x8a9ce9aea7b566ef","coords":[8.9766406,-79.5152076],"lang":"es","queryString":"Vía Italia, Panamá","centerCoord":[8.9766406,-79.5152076],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"958313"};
-            var d = document;
-            var s = d.createElement('script');
-            s.src = 'https://1map.com/js/script-for-user.js?embed_id=958313';
-            s.async = true;
-            s.onload = function (e) {
-            window.OneMap.initMap(setting)
-            };
-            var to = d.getElementsByTagName('script')[0];
-            to.parentNode.insertBefore(s, to);
-        })();</script><a href="https://1map.com/es/map-embed">1 Map</a>
-        </div>
-    </center>
-
     <!-- Footer Start
     <div class="container-fluid bg-light mt-5 py-5">
         <div class="container pt-5">
@@ -739,6 +698,34 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- SCROLL BEHAVIOUR -->
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+                } // End if
+            });
+        }); 
+    </script>
 </body>
 
 </html>

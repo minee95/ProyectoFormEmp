@@ -79,15 +79,15 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
                 <a href="index.html" class="nav-item nav-link">INICIO</a>
-                <a href="about.html" class="nav-item nav-link">SOBRE NOSOTROS</a>
-                <a href="service.html" class="nav-item nav-link">SERVICIOS</a>
-                <a href="product.html" class="nav-item nav-link">PRODUCTOS</a>
+                <a href="./index.html#nosotros" class="nav-item nav-link">NOSOTROS</a>
+                <a href="./index.html#servicios" class="nav-item nav-link">SERVICIOS</a>
+                <a href="./index.html#productos" class="nav-item nav-link">PRODUCTOS</a>
                  <!--<div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SECCIONES</a>
                     <div class="dropdown-menu m-0">
                         <a href="price.html" class="dropdown-item">Pricing Plan</a>
                         <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="adopta.html" class="dropdown-item">Testimonial</a>
                         <a href="blog.html" class="dropdown-item">Blog Grid</a>
                         <a href="detail.html" class="dropdown-item">Blog Detail</a>
                     </div>
@@ -122,7 +122,7 @@
             <div class="row justify-content-end">
                 <div class="col-lg-7">
                     <div class="owl-carousel testimonial-carousel bg-white p-5">
-                        <div class="testimonial-item text-center">
+                        <div class="testimonial-item text-center p-5">
                             <div class="position-relative mb-4">
                                 <img class="img-fluid mx-auto" src="img/testimonial-1.jpg" alt="">
                                 <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
@@ -134,17 +134,17 @@
                             <h5 class="text-uppercase">LADY</h5>
                             <span>2 años</span>
                         </div>
-                        <div class="testimonial-item text-center">
+                        <div class="testimonial-item text-center p-5">
                             <div class="position-relative mb-4">
                                 <img class="img-fluid mx-auto" src="img/testimonial-2.jpg" alt="">
                                 <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
                                     <i class="bi bi-chat-square-quote text-primary"></i>
                                 </div>
                             </div>
-                            <p>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.</p>
+                            <p>Este adorable gatito fue rescatado hace unos meses y, tras recibir atención y cuidados, espera ansioso un hogar lleno de amor y cuidados. ¡Listo para llenar de alegría el corazón de su nueva familia!</p>
                             <hr class="w-25 mx-auto">
-                            <h5 class="text-uppercase">Client Name</h5>
-                            <span>Profession</span>
+                            <h5 class="text-uppercase">MICHIN</h5>
+                            <span>1 año</span>
                         </div>
                     </div>
                 </div>
@@ -152,42 +152,83 @@
         </div>
     </div>
     <!-- Testimonial End -->
-    <div class="contenedor-formulario">
-		<div class="wrap">
-			<form action="" class="formulario" name="formulario_registro" method="get">
-				<div>
-					<div class="input-group">
-						<input type="text" id="nombre" name="nombre">
-						<label class="label" for="nombre">Nombre:</label>
-					</div>
-					<div class="input-group">
-						<input type="email" id="correo" name="correo">
-						<label class="label" for="correo">Correo:</label>
-					</div>
-					<div class="input-group">
-						<input type="password" id="pass" name="pass">
-						<label class="label" for="pass">Contraseña:</label>
-					</div>
-					<div class="input-group">
-						<input type="password" id="pass2" name="pass2">
-						<label class="label" for="pass2">Repetir Contraseña:</label>
-					</div>
-					<div class="input-group radio">
-						<input type="radio" name="sexo" id="hombre" value="Hombre">
-						<label for="hombre">Hombre</label>
-						<input type="radio" name="sexo" id="mujer" value="Mujer">
-						<label for="mujer">Mujer</label>
-					</div>
-					<div class="input-group checkbox">
-						<input type="checkbox" name="terminos" id="terminos" value="true">
-						<label for="terminos">Acepto los Terminos y Condiciones</label>
-					</div>
-						
-					<input type="submit" id="btn-submit" value="Enviar">
-				</div>
-			</form>
-		</div>
-	</div>
+
+    <!-- Grid -->
+    <div class="container">
+        <div class="row">
+
+            <!--    Formulario Start -->
+            <div class="col contenedor-formulario">
+                <div class="wrap">
+                    <form action="" class="formulario" name="formulario_registro" method="get">
+                        <div>
+                            <div class="input-group">
+                                <input type="text" id="nombre" name="nombre">
+                                <label class="label" for="nombre">Nombre:</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="correo" name="correo">
+                                <label class="label" for="correo">Correo:</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" id="pass" name="pass">
+                                <label class="label" for="pass">Contraseña:</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" id="pass2" name="pass2">
+                                <label class="label" for="pass2">Repetir Contraseña:</label>
+                            </div>
+                            <div class="input-group radio">
+                                <input type="radio" name="sexo" id="hombre" value="Hombre">
+                                <label for="hombre">Hombre</label>
+                                <input type="radio" name="sexo" id="mujer" value="Mujer">
+                                <label for="mujer">Mujer</label>
+                            </div>
+                            <div class="input-group checkbox">
+                                <input type="checkbox" name="terminos" id="terminos" value="true">
+                                <label for="terminos">Acepto los Terminos y Condiciones</label>
+                            </div>
+                                
+                            <input type="submit" id="btn-submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Formulario End -->
+    
+            <!-- Pasos para adoptar -->
+            <div class="col">
+                <div class="border-start border-5 border-primary ps-5 mb-5">
+                    <a href="#" class="nav-item nav-link"></a>
+                    <!-- <h6 class="text-primary text-uppercase">Sobre Nosotros</h6> -->
+                    <h1 class="display-5 text-uppercase mb-0">Adopta! Pasos</h1>
+                </div>
+                <!--<h4 class="text-body mb-4">PetShop líder a nivel nacional</h4>-->
+                <div class="bg-light p-4">
+                    <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item w-50" role="presentation">
+                            <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
+                                aria-selected="true">Primero</button>
+                        </li>
+                        <li class="nav-item w-50" role="presentation">
+                            <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
+                                aria-selected="false">Disfruta!</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                            <p class="mb-0">Nuestra misión es proporcionar a los dueños de mascotas los recursos necesarios para cuidar, nutrir y mantener la salud de sus mascotas. Nos comprometemos a ofrecer productos de la más alta calidad, desde alimentos y juguetes hasta accesorios y productos de cuidado, asegurando la satisfacción de las necesidades de nuestras mascotas. Además, nos esforzamos por brindar un excelente servicio al cliente, ofreciendo asesoramiento personalizado y experto, así como promoviendo la adopción responsable y el bienestar animal en nuestra comunidad. Nos consideramos no solo una tienda, sino un socio confiable en la vida de las mascotas y sus dueños. </p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                            <p class="mb-0">Ser reconocidos como el PetShop líder y preferido por los amantes de las mascotas, brindando productos y servicios de alta calidad que promuevan el bienestar y la felicidad de las mascotas y sus dueños. Nos esforzamos por ser un referente en el cuidado y la atención integral de los animales, ofreciendo una amplia gama de productos, asesoramiento experto y un entorno acogedor que fomente una experiencia positiva para todos. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<script src="js/formulario.js"></script>
 

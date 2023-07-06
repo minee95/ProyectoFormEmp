@@ -13,7 +13,9 @@
     font-size: inherit;
     margin-left: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 .btn {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
